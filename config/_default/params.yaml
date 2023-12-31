@@ -12,8 +12,8 @@ footer:
   - title: Contact Us
     contact: true
 style: blue
-logo: /image/logo.png
-logo_small: /image/logo.png
+# logo: /image/logo.png
+# logo_small: /image/logo.
 about_us: >
   Glenn Pascal is an Industrial Engineer.
 recent_posts:
