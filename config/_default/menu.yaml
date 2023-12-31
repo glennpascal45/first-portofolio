@@ -1,9 +1,21 @@
 main:
-  - identifier: about
-    name: About
-    url: /about
-    weight: 100
-  - identifier: contact
-    name: Contact
-    url: /contact
-    weight: 200
+    - identifier: about
+      name: About
+      url: /about
+      weight: 100
+    - identifier: résumé
+      name: résumé
+      url: resume
+      weight: 200
+    - identifier : my-projects
+      name: my projects
+      url: projects
+      weight: 300
+    - identifier : blog
+      name: blog
+      url: blog
+      weight: 400
+    - identifier : contact
+      name: contact
+      url: contact
+      weight: 500
