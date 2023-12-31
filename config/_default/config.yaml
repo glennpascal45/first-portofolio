@@ -3,4 +3,5 @@ languageCode: en-us
 title: Glenn Pascal Mouhingou
 theme: Eclectic
 enableEmoji: true
+enableGitInfo: true
 

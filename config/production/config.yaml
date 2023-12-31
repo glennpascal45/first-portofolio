@@ -1,2 +1,2 @@
-enableRobotsTXT: false
-minify: false
+enableRobotsTXT: true
+minify: true

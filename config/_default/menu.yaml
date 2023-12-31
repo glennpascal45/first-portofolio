@@ -5,15 +5,15 @@ main:
       weight: 100
     - identifier: résumé
       name: résumé
-      url: resume
+      url: /resume
       weight: 200
     - identifier : my-projects
       name: my projects
-      url: projects
+      url: /projects
       weight: 300
     - identifier : blog
       name: blog
-      url: blog
+      url: /blog
       weight: 400
     - identifier : contact
       name: contact
