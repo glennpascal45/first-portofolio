@@ -1,14 +1,9 @@
 color: "#4f46e5"
-copyright: "Copyright &copy; 2022 Acme Corporation. All Rights Reserved."
+copyright: "Copyright &copy; 2024 Glenn Pascal Mouhingou. All Rights Reserved."
 footer:
   - title: About
     content: >
-        Acme Corporation is the world's leading 
-        manufacturer of digital shapes. From squares and 
-        circles to triangles and hexagons, we have it all.
-        Browse through our collection of various forms with 
-        different thicknesses and line styles. We shape 
-        the world. You live in it.
+      Glenn Pascal is an Industrial Engineer.
 
 
   - title: Recent Blog Posts
@@ -20,11 +15,6 @@ style: blue
 logo: /image/logo.png
 logo_small: /image/logo.png
 about_us: >
-  Acme Corporation is the world's leading manufacturer 
-  of digital shapes. From squares and circles to 
-  triangles and hexagons, we have it all. Browse through 
-  our collection of various forms with different 
-  thicknesses and line styles. We shape the world. You 
-  live in it.
+  Glenn Pascal is an Industrial Engineer.
 recent_posts:
   enable: true
