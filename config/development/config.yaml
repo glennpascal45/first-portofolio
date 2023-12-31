@@ -1,4 +1,4 @@
-buildDrafts: true
+buildDrafts: false
 minify: false
 params:
-  DebugMenu: true
+  DebugMenu: false
