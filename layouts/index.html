@@ -45,6 +45,49 @@
     </section>
 
 
+    {{with 
+      (where site.RegularPages 
+      ".Section" "in" site.Params.mainSections)
+    }} 
+    <section id="blog">
+        <h1>From my blog</h1>
+        <ul class="posts">
+          {{range first 3 .}}
+          <li class="post">
+            <a href="{{.Permalink}}">
+              <h2>
+                {{.Title}}
+              </h2>
+              <article>
+                {{.Summary}} 
+              </article>
+              <div>Read More</div>
+            </a>
+          </li>
+          {{end}}
+        </ul>
+    </section>
+    {{end}}
+
+    {{with .Param "testimonials"}}
+    <section id="testimonials">
+    <h1>Recommendations</h1>
+    <div>
+      <ol>
+        {{range .}}
+        <li>
+            <p>{{.content}}</p>
+            <div>
+              <h2>{{.author}}</h2>
+              <h3>{{.from}}</h3>
+            </div>
+        </li>
+        {{end}}
+
+      </ol>
+    </div>
+    </section>
+    {{end}}
 
     <footer class="dark">
       {{with site.Menus.footer }}
