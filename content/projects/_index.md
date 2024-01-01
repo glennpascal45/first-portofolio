@@ -1,3 +1,14 @@
+---
+menu:
+  main:
+    name: My Projects
+    identifier: projects
+    weight: 120
+  footer:
+    name: My Projects
+    weight: 120
+---
+
 These are my projects
 =========
 
