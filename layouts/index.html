@@ -8,6 +8,27 @@
     <title>Glenn Pascal Mouhingou</title>
   </head>
   <body class="home">
+
+    <header>
+      <a href="{{ site.BaseURL | relLangURL }}">
+        <img src="./image/logo.png" alt="Acme Logo" 
+             height="36" width="48" />
+        Glenn Pascal Mouhingou
+      </a>
+      {{with site.Menus.main }}
+        <nav>
+          <button class="hamburger">&#9776;</button>
+          <ul>
+            {{range .}}
+              <li>
+                <a href="{{.URL}}">{{.Name | humanize}}</a>
+              </li>
+            {{end}}
+          </ul>
+        </nav>
+      {{end}}
+    </header>
+
     <section>
       <img src="./image/logo.png" alt="Acme Logo" width="627" height="502" />
       <h1>Glenn Pascal Mouhingou</h1>
@@ -15,6 +36,15 @@
         and tend to build things or analyze those curiousities with code. </h2>
       <a href="./about">Find out more about me</a>
     </section>
+
+
+    
+   
+    <section id="description">
+      {{.Content}}
+    </section>
+
+
 
     <footer class="dark">
       {{with site.Menus.footer }}
