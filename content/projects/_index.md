@@ -4,14 +4,19 @@ menu:
     name: My Projects
     identifier: projects
     weight: 120
+    post: Check my projects
+  
   footer:
     name: My Projects
     weight: 120
+
+type: modern
+cascade:
+  type: modern
 ---
+![News](projects.png)
 
-These are my projects
-=========
 
-<span style="color:black;font-weight:100;font-size:20px">
-    This is a very good tool.
-</span>
+
+
+

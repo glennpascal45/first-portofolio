@@ -1,7 +1,7 @@
-baseURL: https://glennpascal45.github.io/my-portofolio
+baseURL: https://chapter-07-10.hugoinaction.com
 languageCode: en-us
 title: Glenn Pascal Mouhingou
 theme: Eclectic
 enableEmoji: true
 enableGitInfo: true
-
+Paginate: 3

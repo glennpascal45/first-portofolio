@@ -1,10 +1,11 @@
 main:
-    - identifier: about
-      name: About
-      url: /about
-      weight: 100
-
-    - identifier : contact
-      name: contact
-      url: /contact
-      weight: 500
+  - identifier: about
+    name: About
+    url: /about
+    weight: 100
+    post: Our facinating origins
+  - identifier: contact
+    name: Contact
+    url: /contact
+    weight: 200
+    post: At your service

@@ -1,21 +1,32 @@
-color: "#dc2626"
+color: "#dc2625"
 copyright: "Copyright &copy; 2024 Glenn Pascal Mouhingou. All Rights Reserved."
 footer:
   - title: About
     content: >
-      Glenn Pascal is an Industrial Engineer.
+        Acme Corporation is the Sworld's leading 
+        manufacturer of digital shapes. From squares and 
+        circles to triangles and hexagons, we have it all.
+        Browse through our collection of various forms with 
+        different thicknesses and line styles. We shape 
+        the world. You live in it.
 
 
   - title: Recent Blog Posts
     recents: blog
     recentCount: 7
-  - title: Contact Us
+  - title: Contact Me
     contact: true
+  - title: Important Links
+    menu: true
 style: blue
 logo: /image/logo.png
-# logo_small: /image/logo.
+logo_small: /image/logo.png
 about_us: >
-  Glenn Pascal is an Industrial Engineer.
+  Acme Corporation is the world's leading manufacturer 
+  of digital shapes. From squares and circles to 
+  triangles and hexagons, we have it all. Browse through 
+  our collection of various forms with different 
+  thicknesses and line styles. We shape the world. You 
+  live in it.
 recent_posts:
- 
   enable: true

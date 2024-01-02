@@ -1,0 +1,51 @@
+{{define "bodyClass"}} home {{end}}
+
+{{define "body"}}
+{{$title := default site.Title .Title}}
+    <section id="hero">
+      <img class="hero" src="{{partialCached "hero.svg" $ "nothing"}}" alt="Glenn Pascal Mouhingou" width="24rem" />
+      <div class="intro">
+        {{with $title}}<h1>{{.}}</h1>{{end}}
+        {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
+        <a href="{{ref . (.Param "explore")}}">Find out more about me</a>
+        {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }}
+      </div>
+    </section>
+    
+
+    <!-- <section id="description">
+      {{.Content}}
+    </section>
+  -->
+    {{with 
+      (where site.RegularPages 
+      ".Section" "in" site.Params.mainSections)
+    }} 
+    <section id="blog">
+        <h1>From my blog</h1>
+        <ul class="posts">
+          {{range first 3 .}}
+             {{partialCached "card.html" . .Permalink}}
+          {{end}}
+        </ul>
+    </section>
+    {{end}}
+    {{with .Param "testimonials"}}
+    <section id="testimonials">
+    <h1>Customer endorsement</h1>
+    <div>
+      <ol>
+        {{range .}}
+        <li>
+            <p>{{.content}}</p>
+            <div>
+              <h2>{{.author}}</h2>
+              <h3>{{.from}}</h3>
+            </div>
+        </li>
+        {{end}}
+      </ol>
+    </div>
+    </section>
+    {{end}}
+{{ end }}
