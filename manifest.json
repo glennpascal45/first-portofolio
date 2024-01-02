@@ -1,0 +1,21 @@
+{
+  "name": "Glenn Pascal Mouhingou",
+  "short_name": "Glenn Pascal Mouhingou",
+  
+  "icons": [{
+      "src": "/GitHubPages/image/favicon_hu5cbfce3031a154d55e412bad7d0990f9_20415_192x192_resize_box_3.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/GitHubPages/image/favicon_hu5cbfce3031a154d55e412bad7d0990f9_20415_512x512_resize_box_3.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#dc2625",
+  "background_color": "#dc2625",
+  "display": "standalone"
+}
