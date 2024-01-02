@@ -19,7 +19,7 @@ cascade:
   type: modern
   layout: list
 ---
-The Acme Blog
+Welcome to my Blog
 ============
 
-Curated content about our teams and products.
+Journeying through Supply Chains and Data Realms: Power BI, AI, and Beyond.
