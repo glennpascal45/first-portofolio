@@ -7,7 +7,7 @@
       <div class="intro">
         {{with $title}}<h1>{{.}}</h1>{{end}}
         {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
-        <a href="{{ref . (.Param "explore")}}">Find out more about me</a>
+        <a href="./about">Find out more about me</a>
         {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer" }}
       </div>
     </section>
