@@ -22,4 +22,4 @@ cascade:
 Welcome to my Blog
 ============
 
-Journeying through Supply Chains and Data Realms: Power BI, AI, and Beyond.
+Journeying through Supply Chain and Data Realms: Power BI, AI, and Beyond.

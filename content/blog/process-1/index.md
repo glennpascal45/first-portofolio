@@ -1,7 +1,8 @@
 ---
 title: "Ensemble Methods: Harnessing the Power of Collective Intelligence"
-
-
+date: "2024-01-02T00:00:00Z"
+tags: [square, shape, product, manufacturing]
+categories: [shape, design ]
 ---
 
 
