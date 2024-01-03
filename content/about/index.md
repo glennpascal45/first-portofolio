@@ -38,3 +38,6 @@ When I'm not immersed in coding or delving into data, you'll find me unwinding w
 
 ## Let's Collaborate
 I am always eager to explore new challenges and collaborative opportunities in the realms of data, analytics, and supply chain management. If you're looking to leverage my diverse skill set or simply want to connect, feel free to reach out. I'm excited about the prospects and look forward to engaging with you!
+
+
+https://learn.microsoft.com/fr-fr/users/glennpascalmedhymouhingou-3929/credentials/fd7dda9050279a13

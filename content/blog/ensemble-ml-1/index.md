@@ -21,7 +21,7 @@ Throughout this article, we talk on a journey to unravel the nuances of ensemble
 
 
 
-##  I.	Ensemble methods: Collective Intelligence  
+# I.	Ensemble methods: Collective Intelligence  
 To comprehend the essence of ensemble methods, let’s embark on an allegorical journey (illustrated by Gautam Kunapuli in his book Ensemble Methods for Machine Learning) with Dr. Randy Forrest, an esteemed diagnostician reminiscent of the famed Dr. Gregory House of TV fame. Dr. Forrest’s exceptional diagnostic prowess doesn’t solely stem from his politeness, a stark contrast to his idol; it’s his unorthodox approach to diagnosis that sets him apart.
 
 Operating within a teaching hospital, Dr. Forrest has assembled a diverse team of residents, each wielding expertise in various medical specializations. Their collective knowledge is diverse and robust – cardiology, pulmonology, neurology, and so on –each resident contributing their unique strengths to the group.
